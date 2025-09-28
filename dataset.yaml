@@ -1,0 +1,8 @@
+# Dataset paths
+train: /content/yolo_data/images/train
+val: /content/yolo_data/images/val   # Path to validation images
+# test: /content/yolo_data/images/test  # Optional path to test images
+
+# Number of classes and class names
+nc: 8  # Number of classes
+names: ['Rust_Corrosion','Bent_or_Broken_Member','Missing_or_Loose_Bolt','Insulator_Defect','Damaged_Conductor','Loose_or_Damaged_Fittings','Vegetation_Encroachment','Bird_nest']  # Class name(s)
